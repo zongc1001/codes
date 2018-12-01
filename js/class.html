@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<script type="text/javascript">
+		function Stu(name) {
+			this.name = name;
+		}
+
+		Stu.prototype.hello = function() {
+			console.log('Hello, ' + this.name);
+		};
+
+		var xiaoming = new Stu('xiaoming');
+
+		//PrimaryStu的构造函数
+		function PrimaryStu(name, grade) {
+			Stu.call(this, name);
+			this.grade = grade || 1;
+		}
+
+		//空函数
+		function F() {
+
+		}
+		//point the prototype of F to the prototype of Stu
+		F.prototype = Stu.prototype;
+		//point the prototype of PrimaryStu to a instance of F. The prototype of 
+		//the F's instance just right point to prototype of Stu
+		PrimaryStu.prototype = new F();
+		//修正primaryStu原型的构造函数
+		PrimaryStu.prototype.constructor = PrimaryStu;
+		PrimaryStu.prototype.getGrade = function (argument) {
+			return this.grade;
+		}
+		var stu1 = new PrimaryStu('stu1', 2);
+
+
+
+
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>
