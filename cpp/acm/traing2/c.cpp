@@ -1,7 +1,6 @@
 #include <iostream>
 #include <algorithm>
 using namespace std;
-
 char s[100010];
 int main(int argc, char const *argv[])
 {
@@ -14,13 +13,14 @@ int main(int argc, char const *argv[])
     {
         a[s[i]-'a'+1]++;
     }
-
-    memcpy(b, a, 27 * sizeof(int));
-    sort(b + 1, b + 26);
     for(int i = 1; i <= 26;i++)
     {
-        cout << "a[i]: " << a[i] << "   b[i]:  "<< b[i] << endl;
+        for(int j = 0; j < a[i];j++)
+        {
+            char c = i + 'a' - 1;
+            cout << c;
+        }
     }
-
+    cout << endl;
     return 0;
 }
