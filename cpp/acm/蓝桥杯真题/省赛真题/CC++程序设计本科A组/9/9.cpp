@@ -11,7 +11,6 @@ struct Statu
     {
         this->x = obj.x;
         this->y = obj.y;
-
     }
     struct Statu operator+(struct Statu&obj1)
     {
@@ -141,10 +140,5 @@ int main(int argc, char const *argv[])
     //     cout << endl;
     // }
     
-
-    
-
-
-
     return 0;
 }
