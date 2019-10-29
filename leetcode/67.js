@@ -28,11 +28,6 @@ var addBinary = function(a, b) {
         res.unshift(output);
     }
     if(res[0] === 0) res.shift();
-    // console.log(res, carry);
     return res.join('');
     
 };
-
-// console.log(addBinary("10110101010111101",
-//                                   "10101"));
-//                 //               1010010
