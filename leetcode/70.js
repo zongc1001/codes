@@ -13,4 +13,5 @@ var climbStairs = function(n) {
     return c;
 };
 
+
 console.log(climbStairs(4));
