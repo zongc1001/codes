@@ -1,3 +1,7 @@
-function parse2Int(num) {
-    return parseInt(num, 10);
+function count(start, end) {
+    console.log(start);
+    
+    setInterval(() => {
+        console.log(start++);
+    }, 100);
 }
