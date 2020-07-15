@@ -1,102 +1,95 @@
+// https://pintia.cn/problem-sets/994805342720868352/problems/994805507225665536
+
+#include <cmath>
 #include <iostream>
 #include <string>
-#include <vector>
-#include <cmath>
 using namespace std;
+const bool debug = true;
 
-vector<string> s(2);
+typedef unsigned long long ll;
 
-int tag;
-int radix;
+string n1, n2;
+int flag, radix;
 
-int main(int argc, char const *argv[])
-{
-    cin >> s[0] >> s[1] >> tag >> radix;
-
-    // cout << s[0] << " " << s[1] << " " << tag << " " << radix << " " << endl;
-
-    tag -= 1;
-
-    for (int i = 0; i < 2; i++)
-    {
-        for (int j = 0; j < s[i].size(); j++)
-        {
-            if (s[i][j] >= '0' && s[i][j] <= '9')
-                s[i][j] -= '0';
-            else if (s[i][j] >= 'a' && s[i][j] <= 'z')
-                s[i][j] -= 'a' - 10;
-        }
-    }
-
-    unsigned long long target = 0;
-    int len = s[tag].size();
-    for (int i = len - 1; i >= 0; i--)
-    {
-        target += s[tag][i] * pow(radix, len - i - 1);
-    }
-
-    tag = tag ^ 1;
-    // cout << "target: " << target << endl;
-    // cout << "tag: " << tag << endl;
-
-    len = s[tag].size();
-    bool is = false;
-    int index = -1;
-    
-    
-    //检查1进制的情况
-    // bool isAll1 = true;
-    // for(int i = len - 1; i >= 0; i--)
-    // {
-    //     if(s[tag][i] != 1)
-    //     {
-    //         isAll1 = false;
-    //         break;
-    //     }
-    // }
-    // if(isAll1 && target == len)
-    // {
-    //     cout << 1 << endl;
-    //     return 0;
-    // }
-
-
-    for(int i = len - 1; i >= 0; i--)
-    {
-        if(s[tag][i] > index)
-            index = s[tag][i];
-    }
-    index++;
-
-    // cout << "index: " << index << endl;
-    for (; index <= 36; index++)
-    {
-        unsigned long long temp = 0;
-        for (int i = len - 1; i >= 0; i--)
-        {
-            temp += s[tag][i] * pow(index, len - i - 1);
-        }
-        
-        if (temp == target)
-        {
-            is = true;
-            break;
-        }
-        else if(temp > target)
-        {
-            break;
-        }
-        
-    }
-
-    if (is)
-    {
-        cout << index << endl;
-    }
+ll toNum(char c) {
+    if (c >= 'a' && c <= 'z')
+        return c - 'a' + 10;
     else
-    {
-        cout << "Impossible" << endl;
+        return c - '0';
+}
+
+ll cal(string &s, ll rad) {
+    // if (debug) printf("entry cal---------------\n");
+    int n = s.size() - 1;
+    ll res = 0;
+    ll rank = 1;
+    for (int i = n; i >= 0; i--) {
+        res += toNum(s[i]) * rank;
+        rank *= rad;
+
     }
+    if(debug) cout << s << " " << rad << ": " << res << endl;
+    return res;
+}
+
+ll search(string &s, ll target) {
+    ll start = 0;
+    for (int i = 0; i < s.size(); i++) {
+        if (toNum(s[i]) > start) start = toNum(s[i]);
+    }
+    start++;
+    ll end = max(target, start);
+    // ll end = target;
+    
+    ll mid = (start + end) / 2;
+    while (start <= end) {
+        mid = (start + end) / 2;
+        ll calRes = cal(s, mid);
+        if (debug) printf("mid: %lld calRes: %lld\n", mid, calRes);
+        if (calRes == target) {
+            return mid;
+        } else if (calRes < target) {
+            start = mid + 1;
+        } else if (calRes > target) {
+            end = mid - 1;
+        }
+    }
+    return -1;
+}
+
+string slice(string &s) {
+    int k = -1;
+    while (s[++k] == '0')
+        ;
+    return s.substr(k);
+}
+
+int main(int argc, char const *argv[]) {
+    if (debug) freopen("10.txt", "r", stdin);
+    cin >> n1 >> n2 >> flag >> radix;
+    n1 = slice(n1);
+    n2 = slice(n2);
+    if (debug) {
+        cout << "n1: " << n1 << endl;
+        cout << "n2: " << n2 << endl;
+    }
+    ll res;
+    if (flag == 1) {
+        if (debug) {
+            cout << "cal(n1, radix): " << cal(n1, radix) << endl;
+        }
+        res = search(n2, cal(n1, radix));
+    } else {
+        if (debug) {
+            cout << "cal(n2, radix): " << cal(n2, radix) << endl;
+        }
+        res = search(n1, cal(n2, radix));
+    }
+
+    if (res != -1)
+        cout << res << endl;
+    else
+        cout << "Impossible" << endl;
 
     return 0;
 }

@@ -1,5 +1,4 @@
 /*
-
 标题：跳蚱蜢
 
 如图 p1.png 所示： 
@@ -15,7 +14,7 @@
 
 注意：要求提交的是一个整数，请不要填写任何多余内容或说明文字。
 
-ans:
+ans: 20
 */
 
 #include <iostream>
@@ -23,17 +22,67 @@ ans:
 #include <queue>
 #include <set>
 #include <algorithm>
+#include <string>
 using namespace std;
+
+int step[4] = {1, -1, 2, -2};
 
 string origin("012345678");
 string target("087654321");
 
-queue<string> que;
-set<pair<string, int>> store;
+queue<pair<string, int> > que;
+set<string> store;
 
 int main(int argc, char const *argv[])
 {
+    que.push(pair<string, int>(origin, 0));
+    store.insert(origin);
+    string cur = que.front().first;
+
+    int level = -1;
+    bool notFound = true;
+    while (!que.empty())
+    {  
+        level++;
+        cout << "level: " <<level << endl;
+       
+        int looptimes = que.size();
+        for(int i = 0; i < looptimes; i++)
+        {
+            // cout << "loop: " << looptimes <<endl;
+            pair<string, int> s = que.front();
+             que.pop();
+            if(s.first == target)
+            {
+                cout << "find in : " << level << endl;
+                notFound = false;
+                break;
+            }
+            for(int j = 0;j < 4; j++)
+            {
+                int pos = (step[j] + s.second + 9) % 9;
+                pair<string, int> temp;
+                temp.first = string(s.first);
+                temp.first[s.second] = temp.first[pos];
+                temp.first[pos] = '0';
+                temp.second = pos;
+                
+
+                if(store.find(temp.first) == store.end())
+                {
+                    // cout << temp.first <<endl;
+                    store.insert(temp.first);
+                    que.push(temp);
+                }
+            }
+            
+
+        }
+        
+
+    }
     
+
 
 
 

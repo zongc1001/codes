@@ -89,7 +89,6 @@ int querySum(int root, int begin, int end, int qbegin, int qend)
     // 区间重合
     else
     {
-        
         if (begin >= qbegin && end <= qend)
         {
             return segTree[root].sum;
