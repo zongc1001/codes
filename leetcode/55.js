@@ -3,22 +3,16 @@
  * @return {boolean}
  */
 var canJump = function (nums) {
-    let dest = new Array(nums.length);
-    dest.fill(new Array(0));
-    nums.forEach((x, i) => {
-        for (let t = i + 1; t <= i + x && t < nums.length; t++) {
-            dest[t].push(i);
+    let len = nums.length;
+    let max = 0;
+    for (let i = 0; i < len; i++) {
+        if (i <= max) {
+            max = Math.max(max, i + nums[i]);
+        } else {
+            return false;
         }
-    });
-
-    let visited = new Array(nums.length);
-    visited.fill(false);    
-
-    function find(cur) {
-        
     }
-
-    console.log(dest);
+    return true;
 };
 
-canJump([2,3,1,1,4]);
+// console.log(canJump([2,3,1,1,4]));

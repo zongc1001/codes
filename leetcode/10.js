@@ -13,4 +13,4 @@ var isMatch = function(s, p) {
     console.log(a);
 };
 
-isMatch("fdasfasd", "fad*fafad..adfa*.fasdf*");
+
