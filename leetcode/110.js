@@ -1,0 +1,14 @@
+function TreeNode(val) {
+  this.val = val;
+  this.left = this.right = null;
+}
+
+/**
+ * @param {TreeNode} root
+ * @return {boolean}
+ */
+var isBalanced = function (root) {
+  if(root.left === null) {
+    root.left
+  }
+};

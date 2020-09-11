@@ -1,18 +1,21 @@
+const p1 = new Promise(function (resolve, reject) {
+    setTimeout(() => reject(new Error('fail')), 0)
+})
 
+const p2 = new Promise(function (resolve, reject) {
+    setTimeout(() => resolve(p1), 1000)
+})
 
+p2.catch( x => {
+    console.log(x);
+})
 
-function test(arg) {
-    arg = Math.random(2);
-    console.log(arg);
-    setTimeout(() => {
-        if (arg > 0.5) {
-            resolve("成功");
-        } else {
-            reject("失败");
-        }
-    }, 500);
-
-}
-
-let t = new Promise(test);
-t.then(resolve).catch(reject);
+let curTime = new Date().getTime();
+while(new Date().getTime() - curTime < 500);
+console.log(p2);
+while(new Date().getTime() - curTime < 1000);
+console.log(p2);
+while(new Date().getTime() - curTime < 1000);
+console.log(p2);
+while(new Date().getTime() - curTime < 1000);
+console.log(p2);
