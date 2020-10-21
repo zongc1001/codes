@@ -6,6 +6,7 @@
         "random": "cpp",
         "limits": "cpp",
         "ostream": "cpp",
-        "set": "cpp"
+        "set": "cpp",
+        "iostream": "cpp"
     }
 }

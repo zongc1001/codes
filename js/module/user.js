@@ -1,5 +1,8 @@
-'use strict';
-
 let f = require('./src');
 
-console.log(f(2));
+f();
+
+let a = 2;
+
+module.exports = f;
+

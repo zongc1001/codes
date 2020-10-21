@@ -5,10 +5,24 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "(lldb) 启动",
+            "type": "cppdbg",
+            "request": "launch",
+            "preLaunchTask": "build cpp",
+            "program": "${workspaceFolder}/lanqiao/sftg/a.out",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/lanqiao/sftg",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "lldb"
+        },
+        {
             "name": "(Windows) 启动",
             "type": "cppvsdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/lanqiao/真题/a.exe",
+            "preLaunchTask": "build cpp",
+            "program": "${workspaceFolder}/lanqiao/sftg/a.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
