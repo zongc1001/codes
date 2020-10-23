@@ -4,5 +4,7 @@ f();
 
 let a = 2;
 
-module.exports = f;
 
+
+
+module.exports = f;
