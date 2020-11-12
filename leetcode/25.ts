@@ -34,7 +34,7 @@ function reverseKGroup(head: ListNode | null, k: number): ListNode | null {
             }
             
             head.next = recur(temp, k, index + k);
-            console.log(head.next)
+            console.log(head.next ? head.next : "null")
             let tempHead: ListNode = head;
             for (let i = 1; i < k; i++) {
                 let a: any;
