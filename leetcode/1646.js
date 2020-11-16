@@ -15,7 +15,6 @@ var getMaximumGenerated = function (n) {
             return temp;
         }
     }
-    
 
     return returnGet()(n);
 };
