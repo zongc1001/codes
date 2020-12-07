@@ -1,19 +1,4 @@
-interface Person {
-    firstName: string;
-    lastName: string;
-}
+let a: any = {};
 
-function greeter(person: Person) {
-    console.log(person.firstName, person.lastName);
-}
-
-class Student  {
-    fullName: string;
-    constructor(public firstName, public lastName) {
-        this.fullName = firstName + lastName;
-    }
-}
-
-greeter(new Student("fdaf", "fafasdf"));
-
-
+let b = a.a.a.a.a;
+console.log(typeof b);
