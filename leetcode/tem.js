@@ -1,11 +1,7 @@
+function func(disabled) {
+  return disabled !== undefined && disabled;
+}
 
-let a = new Promise(function (resovle, reject) {
-    setTimeout(() => {
-        resovle("fdafa");
-    }, 500);
-}).then(res => {
-    console.log("1", res);
-    return res;
-}).then(res => {
-    console.log("2:", res);
-})
+console.log(func(true));
+console.log(func(false));
+console.log(func());
