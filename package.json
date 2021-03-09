@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/zongc1001/codes#readme",
   "devDependencies": {
-    "eslint": "^7.7.0"
+    "eslint": "^7.17.0"
+  },
+  "dependencies": {
+    "ramda": "^0.27.1"
   }
 }
