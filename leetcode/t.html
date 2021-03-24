@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+    }
+
+    #root {
+      width: 100%;
+      height: 600px;
+      display: flex;
+
+    }
+
+    .page {
+      width: 33%;
+      height: 100%;
+      overflow-y: scroll;
+    }
+
+    #page1 {
+      background-color: aliceblue;
+
+    }
+
+    #page2 {
+      background-color: antiquewhite;
+    }
+
+    #page3 {
+      background-color: aqua;
+    }
+
+    .dispalyNone {
+      display: none;
+    }
+
+    @keyframes slideLeft {
+      from {
+        transform: translateX(0);
+      }
+
+      to {
+        transform: translateX(-100%);
+      }
+    }
+
+    @keyframes slideRight {
+      from {
+        transform: translateX(0);
+      }
+
+      to {
+        transform: translateX(100%);
+      }
+    }
+
+
+    .toLeft {
+      animation-name: slideLeft;
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+    }
+
+    .toRight {
+      animation-name: slideRight;
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="root">
+    <div class="page" id="page1">
+      12312312
+      12312312
+      <p>12321</p>
+      <p>12321</p>
+      <p>12321</p>
+      <p>12321</p>
+      <p>12321</p>
+      <p>12321</p>
+      <p>12321</p>
+      <p>12321</p>
+      <p>12321</p>
+      <p>12321</p>
+      <p>12321</p>
+      <p>12321</p>
+      <p>12321</p>
+      <p>12321</p>
+      <p>12321</p>
+      <p>12321</p>
+      <p>12321</p>
+      <p>12321</p>
+      <p>12321</p>
+      <p>12321</p>
+      <p>12321</p>
+      <p>12321</p>
+      <p>12321</p>
+      <p>12321</p>
+      <p>12321</p>
+      <p>12321</p>
+      <p>12321</p>
+      <p>12321</p>
+      <p>12321</p>
+      <p>12321</p>
+      <p>12321</p>
+      <p>12321</p>
+      <p>12321</p>
+      <p>12321</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+    </div>
+    <div class="page" id="page2">
+      <p>fasdfjkads
+        asjkfjlds</p>
+
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>aaaaaaaaaaaaaa</p>
+      <p>aaaaaaaaaaaaaa</p>
+      <p>aaaaaaaaaaaaaa</p>
+      <p>aaaaaaaaaaaaaa</p>
+      <p>aaaaaaaaaaaaaa</p>
+      <p>aaaaaaaaaaaaaa</p>
+      <p>aaaaaaaaaaaaaa</p>
+      <p>aaaaaaaaaaaaaa</p>
+      <p>aaaaaaaaaaaaaa</p>
+      <p>aaaaaaaaaaaaaa</p>
+      <p>aaaaaaaaaaaaaa</p>
+      <p>aaaaaaaaaaaaaa</p>
+      <p>aaaaaaaaaaaaaa</p>
+      <p>aaaaaaaaaaaaaa</p>
+      <p>aaaaaaaaaaaaaa</p>
+      <p>aaaaaaaaaaaaaa</p>
+      <p>aaaaaaaaaaaaaa</p>
+      <p>aaaaaaaaaaaaaa</p>
+      <p>aaaaaaaaaaaaaa</p>
+      <p>aaaaaaaaaaaaaa</p>
+      <p>aaaaaaaaaaaaaa</p>
+      <p>aaaaaaaaaaaaaa</p>
+      <p>aaaaaaaaaaaaaa</p>
+      <p>aaaaaaaaaaaaaa</p>
+      <p>aaaaaaaaaaaaaa</p>
+      <p>aaaaaaaaaaaaaa</p>
+      <p>aaaaaaaaaaaaaa</p>
+      <p>aaaaaaaaaaaaaa</p>
+      <p>aaaaaaaaaaaaaa</p>
+
+      <p>fasdfjkads
+        asjkfjlds</p>
+
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+      <p>fasdfjkads
+        asjkfjlds</p>
+    </div>
+    <div class="page" id="page3">
+      1231
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+      <p>fldasjfalqweqw21321312</p>
+    </div>
+  </div>
+  <button id='button'>change</button>
+  <button id='moveLeft'>moveLeft</button>
+  <button id='moveRight'>moveRight</button>
+
+  <script>
+    let button = document.querySelector('#button');
+    let moveLeft = document.querySelector('#moveLeft');
+    let moveRight = document.querySelector('#moveRight');
+
+    let page1 = document.querySelector('#page1');
+    let page2 = document.querySelector('#page2');
+    let root = document.querySelector('#root');
+    button.addEventListener('click', (event) => {
+      console.log(event);
+      page2.classList.add('dispalyNone');
+      setTimeout(() => {
+        page2.classList.remove('dispalyNone');
+      }, 1000);
+    })
+
+    moveLeft.addEventListener('click', (event) => {
+      page2.classList.remove('toLeft', 'toRight');
+      page2.classList.add('toLeft');
+    });
+    moveRight.addEventListener('click', (event) => {
+      page2.classList.remove('toLeft', 'toRight');
+      page2.classList.add('toRight');
+    });
+
+  </script>
+</body>
+
+</html>
