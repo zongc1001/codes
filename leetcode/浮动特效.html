@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    @keyframes identifier {
+
+      25% {
+        /* left: 20px;
+        top: 20px; */
+        transform: translate(20px, 20px);
+      }
+
+      50% {
+        /* left: 0;
+        top: 40px; */
+        transform: translate(0px, 40px);
+
+      }
+
+      75% {
+        /* left: -20px;
+        top: 20px; */
+        transform: translate(-20px, 20px);
+      }
+
+
+    }
+
+    #root {
+      width: 100px;
+      height: 20px;
+      background-color: aqua;
+      position: relative;
+      animation-name: identifier;
+      animation-duration: 4s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script>
+    let root = document.querySelector("#root");
+
+
+  </script>
+</body>
+
+</html>

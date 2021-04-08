@@ -8,5 +8,6 @@
         "ostream": "cpp",
         "set": "cpp",
         "iostream": "cpp"
-    }
+    },
+    "liveServer.settings.port": 5501
 }
