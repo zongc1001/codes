@@ -1,0 +1,573 @@
+{
+  "lesson_name": "ygw学习报告强化题-进阶题1",
+  "course_id": 1072,
+  "lesson_id": 2516,
+  "lesson_kind": 1,
+  "lesson_usage_type": 1,
+  "analysis_tags": [
+    {
+      "tag_kind": 1,
+      "tag_name": "潜力出众",
+      "tag_comment": ""
+    },
+    {
+      "tag_kind": 2,
+      "tag_name": "按计划学习",
+      "tag_comment": "坚定的学习计划执行者，继续努力前行吧！"
+    },
+    {
+      "tag_kind": 4,
+      "tag_name": "3连对",
+      "tag_comment": "本课最高记录：3连对"
+    },
+    {
+      "tag_kind": 5,
+      "tag_name": "手速\u003e脑速",
+      "tag_comment": "先保质再保量，DUCK不比只求手速"
+    },
+    {
+      "tag_kind": 6,
+      "tag_name": "开小灶ing",
+      "tag_comment": "老师专门针对你的情况做了更多细致讲解。"
+    },
+    {
+      "tag_kind": 7,
+      "tag_name": "何弃疗",
+      "tag_comment": "遇到不会的题要多思考一下，不要轻言放弃！"
+    },
+    {
+      "tag_kind": 11,
+      "tag_name": "一鼓作气",
+      "tag_comment": "一口气连续学完课程，效果最佳！"
+    },
+    {
+      "tag_kind": 12,
+      "tag_name": "滴滴滴~萌新上路咯",
+      "tag_comment": ""
+    }
+  ],
+  "lesson_adjustments": {
+    "total": 14,
+    "adjustments": [
+      {
+        "adjustment_kind": 1,
+        "adjustment_id": 2,
+        "adjustment_count": 10,
+        "adjustment_text": "为你精讲错因7个",
+        "adjustment_comment_title": "",
+        "adjustment_comment_text": ""
+      },
+      {
+        "adjustment_kind": 2,
+        "adjustment_id": 3,
+        "adjustment_count": 4,
+        "adjustment_text": "整体难度保持 持平",
+        "adjustment_comment_title": "坚持练习，保持状态！",
+        "adjustment_comment_text": "与实力相当的题目战斗中！找准适合自己的难度，keep fighting！"
+      }
+    ]
+  },
+  "study_path": {
+    "lesson_start_time": 1617949405,
+    "lesson_finish_time": 1617949866,
+    "paths": [
+      {
+        "node_id": 1695833479372839,
+        "node_type": 4,
+        "content_type": 2,
+        "node_name": "",
+        "onaroll_count": 0,
+        "is_max_onaroll": 0,
+        "question_id": 0,
+        "question_type": 0,
+        "stu_answers": "",
+        "stu_result": 0
+      },
+      {
+        "node_id": 1695833478958174,
+        "node_type": 4,
+        "content_type": 4,
+        "node_name": "前置知识问答",
+        "onaroll_count": 0,
+        "is_max_onaroll": 0,
+        "question_id": 102943169,
+        "question_type": 1,
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "stu_answers": "[]",
+        "stu_result": 5,
+        "adjustments": [
+          {
+            "adjustment_kind": 1,
+            "adjustment_trend": 2
+          }
+        ]
+      },
+      {
+        "node_id": 1695833478958174,
+        "node_type": 4,
+        "content_type": 2,
+        "node_name": "视频详解",
+        "onaroll_count": 0,
+        "is_max_onaroll": 0,
+        "question_id": 0,
+        "question_type": 0,
+        "stu_answers": "",
+        "stu_result": 0
+      },
+      {
+        "node_id": 1695833479373863,
+        "node_type": 4,
+        "content_type": 2,
+        "node_name": "",
+        "onaroll_count": 0,
+        "is_max_onaroll": 0,
+        "question_id": 0,
+        "question_type": 0,
+        "stu_answers": "",
+        "stu_result": 0
+      },
+      {
+        "node_id": 1695908980494375,
+        "node_type": 4,
+        "content_type": 4,
+        "node_name": "智能练习题组A强化题",
+        "onaroll_count": 0,
+        "is_max_onaroll": 0,
+        "question_id": 102943169,
+        "question_type": 1,
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "stu_answers": "[\"B\"]",
+        "stu_result": 1,
+        "adjustments": [
+          {
+            "adjustment_kind": 1,
+            "adjustment_trend": 1
+          }
+        ]
+      },
+      {
+        "node_id": 1695910798979143,
+        "node_type": 4,
+        "content_type": 2,
+        "node_name": "",
+        "onaroll_count": 0,
+        "is_max_onaroll": 0,
+        "question_id": 0,
+        "question_type": 0,
+        "stu_answers": "",
+        "stu_result": 0
+      },
+      {
+        "node_id": 1695910798980103,
+        "node_type": 4,
+        "content_type": 4,
+        "node_name": "智能练习题组A进阶题",
+        "onaroll_count": 0,
+        "is_max_onaroll": 0,
+        "question_id": 74315653,
+        "question_type": 1,
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "stu_answers": "[\"C\"]",
+        "stu_result": 1,
+        "adjustments": [
+          {
+            "adjustment_kind": 1,
+            "adjustment_trend": 1
+          }
+        ]
+      },
+      {
+        "node_id": 1695908968184839,
+        "node_type": 4,
+        "content_type": 2,
+        "node_name": "",
+        "onaroll_count": 0,
+        "is_max_onaroll": 0,
+        "question_id": 0,
+        "question_type": 0,
+        "stu_answers": "",
+        "stu_result": 0
+      },
+      {
+        "node_id": 1695910798980119,
+        "node_type": 4,
+        "content_type": 4,
+        "node_name": "智能练习题组A强化题",
+        "onaroll_count": 3,
+        "is_max_onaroll": 1,
+        "question_id": 175528893,
+        "question_type": 1,
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "stu_answers": "[\"C\"]",
+        "stu_result": 1,
+        "adjustments": [
+          {
+            "adjustment_kind": 1,
+            "adjustment_trend": 1
+          },
+          {
+            "adjustment_kind": 2,
+            "adjustment_trend": 2
+          }
+        ]
+      },
+      {
+        "node_id": 1696275179673639,
+        "node_type": 4,
+        "content_type": 2,
+        "node_name": "",
+        "onaroll_count": 0,
+        "is_max_onaroll": 0,
+        "question_id": 0,
+        "question_type": 0,
+        "stu_answers": "",
+        "stu_result": 0
+      },
+      {
+        "node_id": 1696261335984142,
+        "node_type": 4,
+        "content_type": 4,
+        "node_name": "智能练习题组B强化题",
+        "onaroll_count": 0,
+        "is_max_onaroll": 0,
+        "question_id": 102943169,
+        "question_type": 1,
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "stu_answers": "[]",
+        "stu_result": 5,
+        "adjustments": [
+          {
+            "adjustment_kind": 1,
+            "adjustment_trend": 2
+          }
+        ]
+      },
+      {
+        "node_id": 1696261335984142,
+        "node_type": 4,
+        "content_type": 2,
+        "node_name": "视频详解",
+        "onaroll_count": 0,
+        "is_max_onaroll": 0,
+        "question_id": 0,
+        "question_type": 0,
+        "stu_answers": "",
+        "stu_result": 0
+      },
+      {
+        "node_id": 1696273659473927,
+        "node_type": 4,
+        "content_type": 2,
+        "node_name": "",
+        "onaroll_count": 0,
+        "is_max_onaroll": 0,
+        "question_id": 0,
+        "question_type": 0,
+        "stu_answers": "",
+        "stu_result": 0
+      },
+      {
+        "node_id": 1696273659473943,
+        "node_type": 4,
+        "content_type": 4,
+        "node_name": "智能练习题组B进阶题",
+        "onaroll_count": 0,
+        "is_max_onaroll": 0,
+        "question_id": 74315653,
+        "question_type": 1,
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "stu_answers": "[\"C\"]",
+        "stu_result": 5,
+        "adjustments": [
+          {
+            "adjustment_kind": 1,
+            "adjustment_trend": 2
+          }
+        ]
+      },
+      {
+        "node_id": 1696273659473943,
+        "node_type": 4,
+        "content_type": 2,
+        "node_name": "视频详解",
+        "onaroll_count": 0,
+        "is_max_onaroll": 0,
+        "question_id": 0,
+        "question_type": 0,
+        "stu_answers": "",
+        "stu_result": 0
+      },
+      {
+        "node_id": 1696261335984158,
+        "node_type": 4,
+        "content_type": 2,
+        "node_name": "",
+        "onaroll_count": 0,
+        "is_max_onaroll": 0,
+        "question_id": 0,
+        "question_type": 0,
+        "stu_answers": "",
+        "stu_result": 0
+      },
+      {
+        "node_id": 1696275179673607,
+        "node_type": 4,
+        "content_type": 4,
+        "node_name": "智能练习题组B强化题",
+        "onaroll_count": 0,
+        "is_max_onaroll": 0,
+        "question_id": 175528893,
+        "question_type": 1,
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "stu_answers": "[]",
+        "stu_result": 5,
+        "adjustments": [
+          {
+            "adjustment_kind": 1,
+            "adjustment_trend": 2
+          },
+          {
+            "adjustment_kind": 2,
+            "adjustment_trend": 2
+          }
+        ]
+      },
+      {
+        "node_id": 1696275179673607,
+        "node_type": 4,
+        "content_type": 2,
+        "node_name": "视频详解",
+        "onaroll_count": 0,
+        "is_max_onaroll": 0,
+        "question_id": 0,
+        "question_type": 0,
+        "stu_answers": "",
+        "stu_result": 0
+      },
+      {
+        "node_id": 1696275179674631,
+        "node_type": 4,
+        "content_type": 2,
+        "node_name": "",
+        "onaroll_count": 0,
+        "is_max_onaroll": 0,
+        "question_id": 0,
+        "question_type": 0,
+        "stu_answers": "",
+        "stu_result": 0
+      },
+      {
+        "node_id": 1696270388489230,
+        "node_type": 4,
+        "content_type": 4,
+        "node_name": "智能练习题组C强化题",
+        "onaroll_count": 0,
+        "is_max_onaroll": 0,
+        "question_id": 102943169,
+        "question_type": 1,
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "stu_answers": "[\"C\"]",
+        "stu_result": 4,
+        "adjustments": [
+          {
+            "adjustment_kind": 1,
+            "adjustment_trend": 2
+          }
+        ]
+      },
+      {
+        "node_id": 1696270388489230,
+        "node_type": 4,
+        "content_type": 2,
+        "node_name": "视频详解",
+        "onaroll_count": 0,
+        "is_max_onaroll": 0,
+        "question_id": 0,
+        "question_type": 0,
+        "stu_answers": "",
+        "stu_result": 0
+      },
+      {
+        "node_id": 1696270388489246,
+        "node_type": 4,
+        "content_type": 2,
+        "node_name": "",
+        "onaroll_count": 0,
+        "is_max_onaroll": 0,
+        "question_id": 0,
+        "question_type": 0,
+        "stu_answers": "",
+        "stu_result": 0
+      },
+      {
+        "node_id": 1696270388489262,
+        "node_type": 4,
+        "content_type": 4,
+        "node_name": "智能练习题组C进阶题",
+        "onaroll_count": 0,
+        "is_max_onaroll": 0,
+        "question_id": 74315653,
+        "question_type": 1,
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "stu_answers": "[]",
+        "stu_result": 5,
+        "adjustments": [
+          {
+            "adjustment_kind": 1,
+            "adjustment_trend": 2
+          }
+        ]
+      },
+      {
+        "node_id": 1696270388489262,
+        "node_type": 4,
+        "content_type": 2,
+        "node_name": "视频详解",
+        "onaroll_count": 0,
+        "is_max_onaroll": 0,
+        "question_id": 0,
+        "question_type": 0,
+        "stu_answers": "",
+        "stu_result": 0
+      },
+      {
+        "node_id": 1696270388489278,
+        "node_type": 4,
+        "content_type": 2,
+        "node_name": "",
+        "onaroll_count": 0,
+        "is_max_onaroll": 0,
+        "question_id": 0,
+        "question_type": 0,
+        "stu_answers": "",
+        "stu_result": 0
+      },
+      {
+        "node_id": 1696270388490254,
+        "node_type": 4,
+        "content_type": 4,
+        "node_name": "智能练习题组C强化题",
+        "onaroll_count": 0,
+        "is_max_onaroll": 0,
+        "question_id": 175528893,
+        "question_type": 1,
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "stu_answers": "[\"B\"]",
+        "stu_result": 3,
+        "adjustments": [
+          {
+            "adjustment_kind": 1,
+            "adjustment_trend": 2
+          },
+          {
+            "adjustment_kind": 2,
+            "adjustment_trend": 2
+          }
+        ]
+      },
+      {
+        "node_id": 1696270388490254,
+        "node_type": 4,
+        "content_type": 2,
+        "node_name": "视频详解",
+        "onaroll_count": 0,
+        "is_max_onaroll": 0,
+        "question_id": 0,
+        "question_type": 0,
+        "stu_answers": "",
+        "stu_result": 0
+      },
+      {
+        "node_id": 1695910917577751,
+        "node_type": 4,
+        "content_type": 2,
+        "node_name": "",
+        "onaroll_count": 0,
+        "is_max_onaroll": 0,
+        "question_id": 0,
+        "question_type": 0,
+        "stu_answers": "",
+        "stu_result": 0
+      }
+    ]
+  },
+  "ai_practice_report": {
+    "total_question_num": 9,
+    "right_question_num": 3,
+    "total_easy_question_num": 0,
+    "right_easy_question_num": 0,
+    "total_medium_question_num": 6,
+    "right_medium_question_num": 2,
+    "total_hard_question_num": 3,
+    "right_hard_question_num": 1,
+    "user_easy_question_time": 0,
+    "avg_easy_question_time": 0,
+    "user_medium_question_time": 7,
+    "avg_medium_question_time": 8,
+    "user_hard_question_time": 2,
+    "avg_hard_question_time": 5,
+    "easy_right_percent": "0",
+    "medium_right_percent": "33",
+    "hard_right_percent": "33"
+  },
+  "lesson_advice": {
+    "teacher_bust": {
+      "url": "https://p-boe.byted.org/tos-boe-i-b7oxb1d5cu/ea9ab1d4f25247b49e6fd15050f5e229~tplv-b7oxb1d5cu-image.png"
+    },
+    "is_finish_course": false
+  },
+  "status_info": {
+    "status_code": 0,
+    "status_msg": "Success"
+  }
+}

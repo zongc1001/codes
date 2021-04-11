@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    @keyframes bounce {
+      from {
+        transform: scale(0.5);
+      }
+
+      /* 50% {
+        transform: scale(1);
+        animation-play-state: paused;
+      } */
+
+      to {
+        transform: scale(1);
+      }
+    }
+
+    .bounce {
+      animation-name: bounce;
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+      animation-timing-function: ease;
+      animation-play-state: paused;
+    }
+
+    .box {
+      width: 100px;
+      height: 100px;
+      background-color: aqua;
+      transform: scale(0.5);
+    }
+  </style>
+
+</head>
+
+<body>
+  <div id="root" class="box bounce">
+    11
+  </div>
+  <button id="button">每次播放都有延迟</button>
+  暂时好像只能用setTimeout来模拟
+  <script>
+    let dom = document.getElementById('root');
+    let btn = document.getElementById('button');
+
+    let direction = true;
+    let animations = dom.getAnimations();
+    btn.addEventListener('click', () => {
+      animations.forEach(x => {
+        console.log(direction);
+        setTimeout(() => {
+          x.reverse();
+        }, 1000);
+        direction = !direction;
+      })
+    })
+
+  </script>
+</body>
+
+</html>
